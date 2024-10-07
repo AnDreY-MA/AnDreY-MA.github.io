@@ -48,3 +48,11 @@ Mail: andreymamontov9@gmail.com
   <a href="https://ims.cr5.space/app/p/H5mdSH6k/This-Isn't-You/" target="_blank"><img width="560" height="315" src="https://github.com/user-attachments/assets/bd6c9a32-873a-46a7-9644-4b507d0a28b9" alt="RC"></a>
   <div><a href="https://ims.cr5.space/app/p/H5mdSH6k/This-Isn't-You/">This Isn't You</a> — A first-person game in which to pit robots against each other.</div>
 </div>
+
+<hr>
+
+<p><a href="https://github.com/AnDreY-MA/CombatAbilitiesSystem">Combat Abilities System</a> — plugin that extends the Gameplay Ability System, designed specifically to create advanced and customizable combat systems in games.</p>
+
+<p><a href="https://github.com/AnDreY-MA/MamontUI">MamontUI</a> — plugin contains base classes to create a UI Menu using CommonUI </p>
+
+<p><a href="https://github.com/AnDreY-MA/CombatEnemySystem">MamontUI</a> — plugin containing base classes for creating combat AI with GAS integration, and using StateTree</p>
