@@ -6,6 +6,8 @@ creating and optimizing gameplay systems, including complex combat mechanics,
 AI, and UI components. Developed and extended plugins, as well as proficient in
 Unreal Engine Gameplay Ability System and CommonUI. Seeking to broaden and
 deepen my knowledge, and share it
+<p><a href="https://github.com/AnDreY-MA"> GitHub</a></p>
+Mail: andreymamontov9@gmail.com
 
 # Skills
 - C++
@@ -26,21 +28,21 @@ deepen my knowledge, and share it
 </div>
 <div></div>
 
-## 
+<hr>
 
 <div>
   <a href="https://itch.io/jam/gol/rate/2775713" target="_blank"><img width="560" height="315" src="https://github.com/user-attachments/assets/42f422b2-9a68-49c3-ae21-b30adb780bfb" alt="NOT"></a>
   <div><a href="https://itch.io/jam/gol/rate/2775713">Not Open World</a> — A student at the mercy of artificial intelligence is in a confined space, and yearns to escape into the open world.</div>
 </div>
 
-## 
+<hr>
 
 <div>
   <a href="https://itch.io/jam/artifact-fantasy-game-jam-2024/rate/3005820" target="_blank"><img width="560" height="315" src="https://github.com/user-attachments/assets/3adc0bb4-0a25-4189-bd15-355f33f8517a" alt="RC"></a>
   <div><a href="https://itch.io/jam/artifact-fantasy-game-jam-2024/rate/3005820">Reality Card</a> — The adventure puzzle game where the player controls a single character in two parallel worlds.</div>
 </div>
 
-## 
+<hr>
 
 <div>
   <a href="https://ims.cr5.space/app/p/H5mdSH6k/This-Isn't-You/" target="_blank"><img width="560" height="315" src="https://github.com/user-attachments/assets/bd6c9a32-873a-46a7-9644-4b507d0a28b9" alt="RC"></a>
