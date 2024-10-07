@@ -55,4 +55,4 @@ Mail: andreymamontov9@gmail.com
 
 <p><a href="https://github.com/AnDreY-MA/MamontUI">MamontUI</a> — plugin contains base classes to create a UI Menu using CommonUI </p>
 
-<p><a href="https://github.com/AnDreY-MA/CombatEnemySystem">MamontUI</a> — plugin containing base classes for creating combat AI with GAS integration, and using StateTree</p>
+<p><a href="https://github.com/AnDreY-MA/CombatEnemySystem">Combat Enemy System</a> — plugin containing base classes for creating combat AI with GAS integration, and using StateTree</p>
