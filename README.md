@@ -31,6 +31,13 @@ Mail: andreymamontov9@gmail.com
 <hr>
 
 <div>
+  <a href="https://andrey-ma.itch.io/codeofperson" target="_blank"><img width="500" height="350" src="https://github.com/user-attachments/assets/e96c4784-ae91-48a5-96a6-c9b15915333d" alt="RC"></a>
+  <div><a href="https://itch.io/jam/artifact-fantasy-game-jam-2024/rate/3005820">Code of Person</a> — After a tragic loss and many trials, Aya was overthrown from her throne by her own mother, who became a cruel ruler who tyrannized the land. The world fell into chaos, and Aya herself went into exile to hide from her persecutors and find the strength to fight.</div>
+</div>
+
+<hr>
+
+<div>
   <a href="https://itch.io/jam/gol/rate/2775713" target="_blank"><img width="560" height="315" src="https://github.com/user-attachments/assets/42f422b2-9a68-49c3-ae21-b30adb780bfb" alt="NOT"></a>
   <div><a href="https://itch.io/jam/gol/rate/2775713">Not Open World</a> — A student at the mercy of artificial intelligence is in a confined space, and yearns to escape into the open world.</div>
 </div>
