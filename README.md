@@ -58,6 +58,13 @@ Mail: andreymamontov9@gmail.com
 
 <hr>
 
+<div>
+  <a href="https://ims.cr5.space/app/p/H5mdSH6k/This-Isn't-You/" target="_blank"><img width="560" height="315" src="https://img.itch.zone/aW1nLzE4OTA1MTE5LnBuZw==/315x250%23c/cAJ3%2BS.png" alt="RC"></a>
+  <div><a href="https://ims.cr5.space/app/p/H5mdSH6k/This-Isn't-You/">Dont't Leave Me</a> — You are waiting for an unusual journey into the world of digital society, where every meme is a weapon and every action has consequences! In “In Search of the Golden Plus” you play as a hero who goes in search of a mythical artifact - a golden plus that can change the fate of the entire Internet. </div>
+</div>
+
+<hr>
+
 <p><a href="https://github.com/AnDreY-MA/CombatAbilitiesSystem">Combat Abilities System</a> — plugin that extends the Gameplay Ability System, designed specifically to create advanced and customizable combat systems in games.</p>
 
 <p><a href="https://github.com/AnDreY-MA/MamontUI">MamontUI</a> — plugin contains base classes to create a UI Menu using CommonUI </p>
