@@ -24,7 +24,7 @@ Mail: andreymamontov9@gmail.com
 
 <div>
   <a href="https://store.steampowered.com/app/3244040/The_Golden_Horde_Survival" target="_blank"><img width="560" height="315" src="https://github.com/user-attachments/assets/1d93b4db-a67f-4d75-9698-a24d274fac51" alt="TGH"></a>
-  <div><a href="https://www.youtube.com/watch?v=7C_S5OYyeIA">The Golden Horde (Doomers Entertainment)</a> — Medieval action story-driven RPG game. The game consists of a series of events that took place in the history of Central Asia. In the first part, we want to show the story of how the Mongol invaders conquered the lands of Central Asia and of a national hero who was able to stand up to them.</div>
+  <div><a href="https://store.steampowered.com/app/3244040/The_Golden_Horde_Survival/">The Golden Horde (Doomers Entertainment)</a> — Medieval action story-driven RPG game. The game consists of a series of events that took place in the history of Central Asia. In the first part, we want to show the story of how the Mongol invaders conquered the lands of Central Asia and of a national hero who was able to stand up to them.</div>
 </div>
 <div></div>
 
