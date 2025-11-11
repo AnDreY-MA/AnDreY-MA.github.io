@@ -5,15 +5,17 @@ I'm **Andrey Mamontov**, C++ programmer on Unreal Engine with two year of experi
 creating and optimizing gameplay systems, including complex combat mechanics,
 AI, and UI components. Developed and extended plugins, as well as proficient in
 Unreal Engine Gameplay Ability System and CommonUI. Seeking to broaden and
+Mail: andreymamontov9@gmail.com
 deepen my knowledge, and share it
 <p><a href="https://github.com/AnDreY-MA"> GitHub</a></p>
-Mail: andreymamontov9@gmail.com
 
 # Skills
 - C++
+- Vulkan
 - Unreal Engine
 - CMake
 - Git
+- Qt
 - SVN
 - Unity
 - Blender
@@ -78,6 +80,7 @@ Mail: andreymamontov9@gmail.com
 </div>
 
 <hr>
+<p><a href="https://github.com/AnDreY-MA/MamontEngine">Mamont Engine</a> — 3D game engine .</p>
 
 <p><a href="https://github.com/AnDreY-MA/CombatAbilitiesSystem">Combat Abilities System</a> — plugin that extends the Gameplay Ability System, designed specifically to create advanced and customizable combat systems in games.</p>
 
