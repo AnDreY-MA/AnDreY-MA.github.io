@@ -34,7 +34,7 @@ deepen my knowledge, and share it
 
 <div>
   <a href="https://andrey-ma.itch.io/codeofperson" target="_blank"><img width="500" height="350" src="https://github.com/user-attachments/assets/e96c4784-ae91-48a5-96a6-c9b15915333d" alt="RC"></a>
-  <div><a href="https://itch.io/jam/artifact-fantasy-game-jam-2024/rate/3005820">Code of Person</a> — After a tragic loss and many trials, Aya was overthrown from her throne by her own mother, who became a cruel ruler who tyrannized the land. The world fell into chaos, and Aya herself went into exile to hide from her persecutors and find the strength to fight.</div>
+  <div><a href="https://andrey-ma.itch.io/codeofperson">Code of Person</a> — After a tragic loss and many trials, Aya was overthrown from her throne by her own mother, who became a cruel ruler who tyrannized the land. The world fell into chaos, and Aya herself went into exile to hide from her persecutors and find the strength to fight.</div>
 </div>
 
 <hr>
