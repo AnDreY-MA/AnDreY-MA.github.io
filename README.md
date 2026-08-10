@@ -1,7 +1,7 @@
 # Welcome to portfolio Andrey Mamontov
 
 # About Me
-I'm **Andrey Mamontov**, C++ programmer on Unreal Engine with two year of experience. Specialized in
+I'm **Andrey Mamontov**, C++ programmer on Unreal Engine with 3 year of experience. Specialized in
 creating and optimizing gameplay systems, including complex combat mechanics,
 AI, and UI components. Developed and extended plugins, as well as proficient in
 Unreal Engine Gameplay Ability System and CommonUI. Seeking to broaden and
