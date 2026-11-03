@@ -1,0 +1,561 @@
+
+---
+import "../styles/global.css";
+
+const skills = [
+  "C++",
+  "Unreal Engine",
+  "Unity",
+  "Game AI",
+  "Vulkan",
+  "Blender",
+  "Qt"
+];
+
+const projects = [
+  {
+    title: "MamontEngine",
+    category: "ENGINE / RENDERING",
+    description:
+      "A personal 3D game engine project built with C++23 and Vulkan.",
+    image: "/images/Engine.png",
+    imageAlt: "MamontEngine rendering viewport",
+    technologies: ["C++23", "Vulkan", "CMake"],
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/AnDreY-MA/MamontEngine",
+      },
+    ],
+    featured: true,
+  },
+  {
+    title: "The Golden Horde: Survival",
+    category: "GAMEPLAY PROGRAMMING",
+    description:
+      "A medieval action RPG project developed by Doomers Entertainment, inspired by historical events in Central Asia.",
+    image:
+      "https://github.com/user-attachments/assets/1d93b4db-a67f-4d75-9698-a24d274fac51",
+    imageAlt: "The Golden Horde: Survival",
+    technologies: ["Unreal Engine"],
+    links: [
+      {
+        label: "Steam",
+        url: "https://store.steampowered.com/app/3244040/The_Golden_Horde_Survival/",
+      },
+    ],
+    featured: true,
+  },
+  {
+    title: "Code of Person",
+    category: "INDIE GAME",
+    description:
+      "An action-adventure about Aya, a fallen ruler forced into exile after her mother takes control of the kingdom.",
+    image:
+      "https://github.com/user-attachments/assets/e96c4784-ae91-48a5-96a6-c9b15915333d",
+    imageAlt: "Code of Person",
+    technologies: ["Unreal Engine"],
+    links: [
+      {
+        label: "itch.io",
+        url: "https://andrey-ma.itch.io/codeofperson",
+      },
+    ],
+    featured: true,
+  },
+  {
+    title: "Combat Enemy System",
+    category: "UNREAL ENGINE PLUGIN",
+    description:
+      "A plugin providing base classes for combat AI with Gameplay Ability System integration and StateTree.",
+    image: "",
+    imageAlt: "Combat Enemy System",
+    technologies: ["C++", "GAS", "StateTree"],
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/AnDreY-MA/CombatEnemySystem",
+      },
+    ],
+    featured: false,
+  },
+  {
+    title: "Combat Abilities System",
+    category: "UNREAL ENGINE PLUGIN",
+    description:
+      "An extension of Gameplay Ability System designed for advanced and customizable combat systems.",
+    image: "",
+    imageAlt: "Combat Abilities System",
+    technologies: ["C++", "Unreal Engine", "GAS"],
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/AnDreY-MA/CombatAbilitiesSystem",
+      },
+    ],
+    featured: false,
+  },
+  {
+    title: "MamontUI",
+    category: "UNREAL ENGINE PLUGIN",
+    description:
+      "A collection of base classes for building game menus with CommonUI.",
+    image: "",
+    imageAlt: "MamontUI",
+    technologies: ["C++", "CommonUI"],
+    links: [
+      {
+        label: "GitHub",
+        url: "https://github.com/AnDreY-MA/MamontUI",
+      },
+    ],
+    featured: false,
+  },
+  {
+    title: "Please, Take Me On",
+    category: "GAME JAM",
+    description:
+      "A lazy sloth refuses to climb a tree, leaving Mother Nature to solve the problem.",
+    image:
+      "https://img.itch.zone/aW1nLzIwNzA0MDc4LnBuZw==/347x500/kSaqFR.png",
+    imageAlt: "Please, Take Me On",
+    technologies: [],
+    links: [
+      {
+        label: "Game page",
+        url: "https://andrey-ma.itch.io/please-take-me-on",
+      },
+    ],
+    featured: false,
+  },
+  {
+    title: "Not Open World",
+    category: "GAME JAM",
+    description:
+      "A student held captive by artificial intelligence tries to escape a confined space and reach the open world.",
+    image:
+      "https://github.com/user-attachments/assets/42f422b2-9a68-49c3-ae21-b30adb780bfb",
+    imageAlt: "Not Open World",
+    technologies: [],
+    links: [
+      {
+        label: "Game page",
+        url: "https://itch.io/jam/gol/rate/2775713",
+      },
+    ],
+    featured: false,
+  },
+  {
+    title: "Reality Card",
+    category: "GAME JAM",
+    description:
+      "An adventure puzzle game where the player controls one character across two parallel worlds.",
+    image:
+      "https://github.com/user-attachments/assets/3adc0bb4-0a25-4189-bd15-355f33f8517a",
+    imageAlt: "Reality Card",
+    technologies: [],
+    links: [
+      {
+        label: "Game page",
+        url: "https://itch.io/jam/artifact-fantasy-game-jam-2024/rate/3005820",
+      },
+    ],
+    featured: false,
+  },
+  {
+    title: "Where I Belong",
+    category: "GAME JAM",
+    description:
+      "A blobfish discarded on the surface by poachers must return to the depths of the ocean.",
+    image: "/images/whereibelong.png",
+    imageAlt: "Where I Belong",
+    technologies: [],
+    links: [
+      {
+        label: "Game page",
+        url: "https://ldjam.com/events/ludum-dare/57/where-i-belong",
+      },
+    ],
+    featured: false,
+  },
+  
+  {
+    title: "This Isn't You",
+    category: "GAME JAM",
+    description:
+      "A first-person game about pitting robots against each other.",
+    image:
+      "https://github.com/user-attachments/assets/bd6c9a32-873a-46a7-9644-4b507d0a28b9",
+    imageAlt: "This Isn't You",
+    technologies: [],
+    links: [
+      {
+        label: "Game page",
+        url: "https://ims.cr5.space/app/p/H5mdSH6k/This-Isnt-You/",
+      },
+    ],
+    featured: false,
+  },
+  {
+    title: "Don't Leave Me",
+    category: "GAME JAM",
+    description:
+      "An unusual journey through digital society, where memes become weapons and a hero searches for a mythical Golden Plus.",
+    image:
+      "https://img.itch.zone/aW1nLzE4OTA1MTE5LnBuZw==/315x250%23c/cAJ3%2BS.png",
+    imageAlt: "Don't Leave Me",
+    technologies: [],
+    links: [
+      {
+        label: "Game page",
+        url: "https://andrey-ma.itch.io/dontt-leave-me",
+      },
+    ],
+    featured: false,
+  },
+];
+
+
+const featuredProjects = projects.filter(
+  (project) => project.featured,
+);
+
+const engineeringProjects = projects.filter(
+  (project) =>
+    !project.featured &&
+    project.category === "UNREAL ENGINE PLUGIN",
+);
+
+const gameJamProjects = projects.filter(
+  (project) => project.category === "GAME JAM",
+);
+
+const showcaseVideos = [
+  {
+    number: "01",
+    category: "Animations",
+    title: "Procedural Monster Animation",
+    description:
+      "Procedural animation developed in Unreal Engine with Control Rig",
+    technologies: ["Unreal Enigne", "Control Rig"],
+    video: "/videos/MonsterPreview.mp4",
+    poster: "/images/MonsterPreview.PNG",
+    link: "",
+    linkLabel: ""
+  },
+  {
+    number: "",
+    category: "Gameplay Programming",
+    title: "Combat Enemy System",
+    description:
+      "Enemy AI system demonstrating combat behavior, " +
+      "perception and tactical decision-making.",
+    technologies: ["C++", "Unreal Engine", "StateTree", "Combat AI"],
+    video: "/videos/EnemyRanged.mp4",
+    poster: "/images/EnemyPreview.PNG",
+    link: "https://github.com/AnDreY-MA/CombatEnemySystem",
+    linkLabel: "View source code↗"
+  }
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="Gameplay Engineer specializing in Unreal Engine gameplay systems, AI, C++ and Vulkan rendering."
+    />
+    <meta name="theme-color" content="#101116" />
+    <title>Andrey Mamontov — Game Programmer</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <!-- <a class="brand" href="/" aria-label="Home">
+          <span class="brand__mark">AM</span>
+          <span class="brand__name">ANDREY MAMONTOV</span>
+        </a> -->
+
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#work">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a
+          class="header__github"
+          href="https://github.com/AnDreY-MA"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero__content">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            C++ GAME PROGRAMMER
+          </p>
+
+          <h1>
+            I'm Andrey Mamontov<br />
+          </h1>
+
+          <p class="hero__description">
+            I'm C++ programmer on Unreal Engine with 3 year of experience. 
+			Specialized in creating and optimizing gameplay systems, including complex combat mechanics, AI, and UI components. 
+			Developed and extended plugins, as well as proficient in Unreal Engine Gameplay Ability System and CommonUI.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#work">
+              Explore projects <span aria-hidden="true">↗</span>
+            </a>
+
+            <a
+              class="button button--secondary"
+              href="https://github.com/AnDreY-MA"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View GitHub
+            </a>
+          </div>
+
+          <div class="hero__skills" aria-label="Technical skills">
+            {skills.map((skill) => (
+              <span class="skill-tag">{skill}</span>
+            ))}
+          </div>
+        </div>
+
+        
+      </section>
+      
+	<section class="work container" id="work">
+	<div class="section-heading">
+		<h2>Games and technology.</h2>
+		<p class="section-description">
+		Gameplay systems, independent games, and engine development.
+		</p>
+	</div>
+
+	<div class="project-grid project-grid--featured">
+		{featuredProjects.map((project) => (
+		<article class="project-card">
+			<a
+			class="project-card__media"
+			href={project.links[0].url}
+			target="_blank"
+			rel="noreferrer"
+			aria-label={`Open ${project.title}`}
+			>
+			{project.image ? (
+				<img
+				src={project.image}
+				alt={project.imageAlt}
+				loading="lazy"
+				/>
+			) : (
+				<div class="project-card__placeholder">
+				<span>PROJECT / ENGINEERING</span>
+				<span class="project-card__placeholder-title">
+					{project.title}
+				</span>
+				</div>
+			)}
+			<span class="project-card__open" aria-hidden="true">↗</span>
+			</a>
+
+			<div class="project-card__body">
+			<p class="project-card__category">{project.category}</p>
+			<h3>{project.title}</h3>
+			<p class="project-card__description">
+				{project.description}
+			</p>
+
+			<div class="project-card__tags">
+				{project.technologies.map((technology) => (
+				<span class="skill-tag">{technology}</span>
+				))}
+			</div>
+
+			<div class="project-card__links">
+				{project.links.map((link) => (
+				<a href={link.url} target="_blank" rel="noreferrer">
+					{link.label} <span aria-hidden="true">↗</span>
+				</a>
+				))}
+			</div>
+			</div>
+		</article>
+		))}
+	</div>
+
+  <section class="video-showcase" id="showcase">
+  <div class="video-showcase__inner">
+    <div class="video-showcase__header">
+      <span class="section-label"></span>
+      <h2>Showcase</h2>
+
+    </div>
+
+    <div class="video-showcase__list">
+      {showcaseVideos.map((item) => (
+        <article class="showcase-item">
+          <div class="showcase-item__heading">
+            <h3>{item.title}</h3>
+
+            <p>{item.description}</p>
+          </div>
+
+          <div class="showcase-item__media">
+            <video
+              controls
+              playsinline
+              preload="none"
+              poster={item.poster}
+            >
+              <source src={item.video} type="video/mp4" />
+            </video>
+          </div>
+
+          <div class="showcase-item__footer">
+            <div class="showcase-item__technologies">
+              {item.technologies.map((tech) => (
+                <span>{tech}</span>
+              ))}
+            </div>
+
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {item.linkLabel} 
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+	<div class="section-heading section-heading--subsection">
+		<p class="eyebrow">UNREAL ENGINE / TOOLS</p>
+		<h3>Plugins and systems.</h3>
+	</div>
+
+	<div class="project-grid project-grid--compact">
+		{engineeringProjects.map((project) => (
+		<article class="project-card project-card--compact">
+			<div class="project-card__body">
+			<p class="project-card__category">{project.category}</p>
+			<h3>{project.title}</h3>
+			<p class="project-card__description">
+				{project.description}
+			</p>
+
+			<div class="project-card__tags">
+				{project.technologies.map((technology) => (
+				<span class="skill-tag">{technology}</span>
+				))}
+			</div>
+
+			<div class="project-card__links">
+				{project.links.map((link) => (
+				<a href={link.url} target="_blank" rel="noreferrer">
+					{link.label} <span aria-hidden="true">↗</span>
+				</a>
+				))}
+			</div>
+			</div>
+		</article>
+		))}
+	</div>
+
+	<div class="section-heading section-heading--subsection">
+		<p class="eyebrow">GAME JAMS</p>
+		<h3>Games created on game jams</h3>
+	</div>
+
+	<div class="project-grid project-grid--archive">
+		{gameJamProjects.map((project) => (
+		<article class="project-card project-card--archive">
+			<a
+			class="project-card__media"
+			href={project.links[0].url}
+			target="_blank"
+			rel="noreferrer"
+			>
+			{project.image && (
+				<img
+				src={project.image}
+				alt={project.imageAlt}
+				loading="lazy"
+				/>
+			)}
+			</a>
+
+			<div class="project-card__body">
+			<p class="project-card__category">{project.category}</p>
+			<h3>{project.title}</h3>
+			<p class="project-card__description">
+				{project.description}
+			</p>
+			<div class="project-card__links">
+				{project.links.map((link) => (
+				<a href={link.url} target="_blank" rel="noreferrer">
+					{link.label} <span aria-hidden="true">↗</span>
+				</a>
+				))}
+			</div>
+			</div>
+		</article>
+		))}
+	</div>
+	</section>
+
+
+      <footer class="contact" id="contact">
+  <div class="contact__inner">
+    <h2 class="contact__title">My contacts</h2>
+
+    <p class="contact__description">
+      Have a project in mind or an interesting opportunity?
+    </p>
+
+    <div class="contact__links">
+  <a
+    class="contact__link"
+    href="mailto:andreymamontov9@gmail.com"
+  >
+    andreymamontov9@gmail.com
+    <span aria-hidden="true">↗</span>
+  </a>
+
+  <a
+    class="contact__link"
+    href="https://discord.com/users/715170014042390539"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Discord
+    <span aria-hidden="true">↗</span>
+  </a>
+</div>
+
+    <div class="contact__footer">
+      <span>Andrey Mamontov. Yes, it's site building with AI and Astro © 2026</span>
+    </div>
+  </div>
+</footer>
+    </main>
+  </body>
+</html>
